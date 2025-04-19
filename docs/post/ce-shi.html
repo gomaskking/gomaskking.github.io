@@ -10,7 +10,12 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="# 一级标题
+<meta name="description" content="
+好的，以下是直接渲染展示的 Markdown 内容：
+
+----------
+
+# 一级标题
 
 ## 二级标题
 
@@ -22,15 +27,22 @@
 
 ###### 六级标题
 
----
+----------
 
 ## **文本样式**
 
-这是*斜体*文本，  
-这是**加粗**文本，  
-这是***加粗+斜体***文本。">
-<meta property="og:title" content="Markdown测试">
-<meta property="og:description" content="# 一级标题
+这是_斜体_文本，
+
+这是**加粗**文本，
+
+这是**_加粗+斜体_**文本。">
+<meta property="og:title" content="测试">
+<meta property="og:description" content="
+好的，以下是直接渲染展示的 Markdown 内容：
+
+----------
+
+# 一级标题
 
 ## 二级标题
 
@@ -42,18 +54,20 @@
 
 ###### 六级标题
 
----
+----------
 
 ## **文本样式**
 
-这是*斜体*文本，  
-这是**加粗**文本，  
-这是***加粗+斜体***文本。">
+这是_斜体_文本，
+
+这是**加粗**文本，
+
+这是**_加粗+斜体_**文本。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://gomaskking.github.io/post/Markdown-ce-shi.html">
+<meta property="og:url" content="https://gomaskking.github.io/post/ce-shi.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
-<title>Markdown测试</title>
-<link href="//unpkg.com/@wooorm/starry-night@2.1.1/style/both.css" rel="stylesheet" />
+<title>测试</title>
+
 
 
 </head>
@@ -95,7 +109,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<h1 class="postTitle">Markdown测试</h1>
+<h1 class="postTitle">测试</h1>
 <div class="title-right">
     <a href="https://gomaskking.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
@@ -103,7 +117,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </a>
     
-    <a href="https://github.com/gomaskking/gomaskking.github.io/issues/2" target="_blank" class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/gomaskking/gomaskking.github.io/issues/4" target="_blank" class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
@@ -119,7 +133,9 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><h1>一级标题</h1>
+<div class="markdown-body" id="postBody"><p>好的，以下是直接渲染展示的 Markdown 内容：</p>
+<hr>
+<h1>一级标题</h1>
 <h2>二级标题</h2>
 <h3>三级标题</h3>
 <h4>四级标题</h4>
@@ -127,96 +143,92 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <h6>六级标题</h6>
 <hr>
 <h2><strong>文本样式</strong></h2>
-<p>这是<em>斜体</em>文本，<br>
-这是<strong>加粗</strong>文本，<br>
-这是<em><strong>加粗+斜体</strong></em>文本。<br>
-这是<del>删除线</del>。<br>
-这是 ==高亮==（某些渲染器支持）。</p>
+<p>这是_斜体_文本，</p>
+<p>这是<strong>加粗</strong>文本，</p>
+<p>这是**<em>加粗+斜体</em>**文本。</p>
+<p>这是删除线。</p>
+<p>这是 ==高亮==（某些渲染器支持）。</p>
 <hr>
 <h2><strong>引用</strong></h2>
 <blockquote>
-<p>这是一个引用块。</p>
-<blockquote>
-<p>嵌套引用</p>
-</blockquote>
+<p>这是一个引用块。<br>
+嵌套引用</p>
 </blockquote>
 <hr>
 <h2><strong>列表</strong></h2>
 <h3>无序列表</h3>
 <ul>
-<li>项目 A
-<ul>
-<li>子项目 A1
-<ul>
-<li>子项目 A1a</li>
-</ul>
+<li>
+<p>项目 A</p>
 </li>
-</ul>
+<li>
+<p>子项目 A1</p>
 </li>
-<li>项目 B</li>
-<li>项目 C</li>
+<li>
+<p>子项目 A1a</p>
+</li>
+<li>
+<p>项目 B</p>
+</li>
+<li>
+<p>项目 C</p>
+</li>
 </ul>
 <h3>有序列表</h3>
 <ol>
-<li>第一项</li>
-<li>第二项
-<ol>
-<li>子项 a</li>
-<li>子项 b</li>
-</ol>
+<li>
+<p>第一项</p>
 </li>
-<li>第三项</li>
+<li>
+<p>第二项</p>
+</li>
+<li>
+<p>子项 a</p>
+</li>
+<li>
+<p>子项 b</p>
+</li>
+<li>
+<p>第三项</p>
+</li>
 </ol>
 <hr>
 <h2><strong>任务列表</strong></h2>
-<ul class="contains-task-list">
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> 已完成任务</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 未完成任务</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> 再完成一个</li>
+<ul>
+<li>已完成任务</li>
+<li>未完成任务</li>
+<li>再完成一个</li>
 </ul>
 <hr>
 <h2><strong>链接</strong></h2>
-<p><a href="https://www.example.com" rel="nofollow">普通链接</a><br>
-<a href="https://www.example.com" rel="nofollow">https://www.example.com</a><br>
-<a href="https://www.example.com" title="悬浮标题" rel="nofollow">带标题的链接</a></p>
+<p><a href="https://www.example.com/" rel="nofollow">普通链接</a></p>
+<p><a href="https://www.example.com/" rel="nofollow">https://www.example.com</a></p>
+<p><a href="https://www.example.com/" rel="nofollow">带标题的链接</a></p>
 <hr>
 <h2><strong>图片</strong></h2>
-<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/eeb32ebbd7ec531997576e9ccb6117763ece7c0268b12e65419b3031d96ec021/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f313530"><img src="https://camo.githubusercontent.com/eeb32ebbd7ec531997576e9ccb6117763ece7c0268b12e65419b3031d96ec021/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f313530" alt="测试图片" title="图片标题" data-canonical-src="https://via.placeholder.com/150" style="max-width: 100%;"></a></p>
 <hr>
 <h2><strong>代码</strong></h2>
 <p>这是 <code class="notranslate">inline code</code> 行内代码。</p>
-<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-k">def</span> <span class="pl-en">hello_world</span>():
-    <span class="pl-en">print</span>(<span class="pl-s">"Hello, world!"</span>)</pre></div>
-<div class="highlight highlight-source-shell"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#!</span>/bin/bash</span>
-<span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>Hello from shell<span class="pl-pds">"</span></span></pre></div>
+<pre class="notranslate"><code class="notranslate">def hello_world():
+    print("Hello, world!")
+</code></pre>
+<pre class="notranslate"><code class="notranslate">#!/bin/bash
+echo "Hello from shell"
+</code></pre>
 <hr>
 <h2><strong>表格</strong></h2>
-<markdown-accessiblity-table><table role="table">
-<thead>
-<tr>
-<th>姓名</th>
-<th>年龄</th>
-<th>城市</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>张三</td>
-<td>25</td>
-<td>北京</td>
-</tr>
-<tr>
-<td>李四</td>
-<td>30</td>
-<td>上海</td>
-</tr>
-<tr>
-<td>王五</td>
-<td>28</td>
-<td>广州</td>
-</tr>
-</tbody>
-</table></markdown-accessiblity-table>
+<p><strong>姓名</strong></p>
+<p><strong>年龄</strong></p>
+<p><strong>城市</strong></p>
+<p>张三</p>
+<p>25</p>
+<p>北京</p>
+<p>李四</p>
+<p>30</p>
+<p>上海</p>
+<p>王五</p>
+<p>28</p>
+<p>广州</p>
 <hr>
 <h2><strong>水平线</strong></h2>
 <hr>
@@ -224,27 +236,22 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <hr>
 <hr>
 <h2><strong>HTML 语法（兼容测试）</strong></h2>
-<div>这是一段红色的 HTML 文本。</div>
 <hr>
 <h2><strong>脚注</strong></h2>
-<p>这是一个带脚注的例子<sup><a href="#user-content-fn-1-802ebcf32393d3c0c9f30b049050bd85" id="user-content-fnref-1-802ebcf32393d3c0c9f30b049050bd85" data-footnote-ref="" aria-describedby="footnote-label">1</a></sup>。</p>
+<p>这是一个带脚注的例子[^1]。</p>
 <hr>
 <h2><strong>公式（部分支持）</strong></h2>
-<p>行内公式：$E = mc^2$<br>
-块级公式：</p>
-<p>$$
-\int_0^1 x^2 dx = \frac{1}{3}
-$$</p>
+<p>行内公式：$E = mc^2$</p>
+<p>块级公式：</p>
+<p>$$</p>
+<p>\int_0^1 x^2 dx = \frac{1}{3}</p>
+<p>$$</p>
 <hr>
 <h2><strong>目录（TOC，部分支持）</strong></h2>
 <p>[TOC]</p>
-<section data-footnotes="" class="footnotes"><h2 id="footnote-label" class="sr-only">Footnotes</h2>
-<ol>
-<li id="user-content-fn-1-802ebcf32393d3c0c9f30b049050bd85">
-<p>脚注内容在这里。 <a href="#user-content-fnref-1-802ebcf32393d3c0c9f30b049050bd85" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
-</li>
-</ol>
-</section></div>
+<hr>
+<p>如果你想测试更高级的 Markdown 扩展（如 Mermaid 流程图、折叠块、数学公式渲染等），我也可以继续加。需要的话就说一声！</p>
+</div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -408,6 +415,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 </script>
-<script>MathJax = {tex: {inlineMath: [["$", "$"]]}};</script><script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 
 </html>
